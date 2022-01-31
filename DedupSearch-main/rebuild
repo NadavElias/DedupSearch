@@ -1,0 +1,11 @@
+#!/bin/sh
+
+DIR=/home/data/working/
+mkdir -p ${DIR}/recipes/
+mkdir -p ${DIR}/index/
+
+rm -f ${DIR}/recipes/*
+rm -f ${DIR}/index/*
+rm -f ${DIR}/container.pool
+rm -f ${DIR}/destor.stat
+rm -f ${DIR}/manifest
